@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+
+
+html{
+font-family: 'Roboto', sans-serif;
+background-color: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: initial;
+}
+li {
+  list-style: none;
+}
+.flex{
+    display: flex;
+}
+.border{
+    border: 2px solid red;
+}
+.between{
+    justify-content: space-between;
+}
+.divr{
+  
+  border: 1px solid rgb(16, 41, 45);
+}
+.cntr{
+  align-items: center;
+}
+.pdin{
+  padding: 10px;
+}

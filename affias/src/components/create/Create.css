@@ -1,0 +1,62 @@
+.creat {
+  gap: 150px;
+  background-color: #e3e4e6;
+}
+.about {
+  width: 600px;
+}
+.about h3 {
+  margin-bottom: 50px;
+  font-size: 27px;
+}
+
+.gap {
+  gap: 30px;
+  margin-top: 20px;
+
+}
+li {
+  align-items: center;
+}
+ul li a {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 7px;
+  border: 2px solid #0d2b5b;
+  border-radius: 15px;
+}
+ul li a:hover {
+  border: 1px solid #eef0f4;
+  
+  box-shadow: 1px 1px 8px #2c59a3;
+}
+
+ul li a span {
+  color: #2c59a3;
+}
+
+ul li a p {
+  color: #114dae;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+
+
+
+@media (max-width: 772px) {
+  .creat {
+   gap: 50px;
+   flex-wrap: wrap;
+   width: 100%;
+   padding-bottom: 70px;
+  }
+  .photo{
+    width: 100%;
+  }
+ 
+ 
+   }
